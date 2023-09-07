@@ -1,4 +1,7 @@
-const numbe = {firstNum: 12};
-console.log(numbe.firstNum);
-numbe.firstNum = 89;
-console.log(numbe.firstNum);
+const numbers = [3, 5, 12, 7, 1];
+
+// Update the value 12 with 89
+numbers[2] = 89;
+
+// Print the updated array
+console.log(numbers);
