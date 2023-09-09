@@ -1,8 +1,10 @@
-let numberr = 12;
+// Define an object with a property containing the old value
+let myObject = {
+    myProperty: 12
+};
 
-function change_value(){
-    numberr = 89;
-}
+// Replace the old value (12) with the new value (89)
+myObject.myProperty = 89;
 
-change_value();
-console.log(numberr);
+// Now the object contains the updated value
+console.log(myObject.myProperty); // Output: 89
