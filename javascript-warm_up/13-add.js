@@ -1,8 +1,5 @@
 #!/usr/bin/node
-// Define the 'add' function
-function add(a, b) {
-  return a + b;
-}
-
-// Export the 'add' function
-module.exports = add;
+export function add(num1, num2) {
+  sum = num1 + num2;
+  return sum;
+};
