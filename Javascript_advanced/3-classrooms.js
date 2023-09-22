@@ -6,7 +6,7 @@ function createClassRoom(numbersOfStudents) {
       };
     }
   
-    var students = [];
+    const students = [];
     for (var i = 0; i < numbersOfStudents; i++) {
       students.push(studentSeat(i + 1));
     }
@@ -14,5 +14,5 @@ function createClassRoom(numbersOfStudents) {
     return students;
   }
   
-  var classRoom = createClassRoom(10);
+  const classRoom = createClassRoom(10);
   
