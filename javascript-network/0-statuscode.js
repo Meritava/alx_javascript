@@ -6,6 +6,7 @@ const request = require('request');
 const url = `${process.argv[2]}`
 // make a GET request
 request.get(url)
- .on(('response', response => {
-    console.log('code: ', response.statusCode)
- }))
+ .on('response', response => {
+    console.log('code: ', response.statusCode);
+ })
+
