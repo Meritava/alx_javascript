@@ -13,12 +13,8 @@
   <p>This is a normal paragraph.</p>
 
   <script>
-    //use querySelectorAll to select all elements with the class  "highlight"
-    const elements = document.querySelectorAll('.highlight');
-    // Apply the style to all selected elements
-    elements.forEach((element) => {
-        element.style.fontWeight = 'bolder';
-    })
+    const highlight = document.querySelectorAll('.highlight');
+      highlight[0].style.fontWeight = 'bold';
   </script>
 </body>
 </html>
