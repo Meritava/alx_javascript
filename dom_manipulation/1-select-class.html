@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Selecting Elements</title>
+  <style>
+    .highlight {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <p class="highlight">This is a highlighted paragraph.</p>
+  <p>This is a normal paragraph.</p>
+
+  <script>
+    //use querySelectorAll to select all elements with the class  "highlight"
+    const elements = document.querySelectorAll('.highlight');
+    // Apply the style to all selected elements
+    elements.forEach((element) => {
+        element.style.fontWeight = 'bolder';
+    })
+  </script>
+</body>
+</html>
